@@ -1,5 +1,5 @@
 {% set name = "pybaum" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pybaum-{{ version }}.tar.gz
-  sha256: 5bb36b2e923568d1f290dc1996584b3861698fe44fe2a550f0cf59fc951d0fe9
+  sha256: 94366bb8b5f72a6e604e7cf8674c1cdd9980b4317cc08108558729867ce8b716
 
 build:
   noarch: python
